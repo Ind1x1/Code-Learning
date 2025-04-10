@@ -1,5 +1,6 @@
 <pre><code>Pytorch/ 
-├── DeviceMesh.py/
+├── DeviceMesh.py    # dist.group class DeviceMesh
+├── fsdp.md          # some guides of fsdp
 </code></pre>
 
 ### DeviceMesh.py
@@ -28,3 +29,6 @@
     mesh_3d["cp", "dp"] =[[2,6], ======> dim0 -- cp -->[2,6]
                           [3,7]]                       [3,7]
 
+### fsdp.md
+***fsdp vs deepspeed***
+***fsdp1 vs fsdp2***
